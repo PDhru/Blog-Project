@@ -58,7 +58,7 @@ const AddBlog = () => {
           </ul>
         </div>
         <div className="row g-lg-4 gy-5">
-          <div className="col-lg-8">
+          <div className="col-12">
             <div className="inquiry-form contact-inquiry">
               <div className="title">
                 <h1>Add Blog!</h1>
@@ -118,67 +118,7 @@ const AddBlog = () => {
               </form>
             </div>
           </div>
-          <div className="col-lg-4">
-            <div className="featured-post-sideber">
-              <div className="sidebar-widget featured-post">
-                <h6>Featured Post</h6>
-                <div className="recent-post">
-                  <div className="recent-post-img">
-                    <a href="/"><img src="assets/image/standard/sidebar-img1.png" alt="" /></a>
-                  </div>
-                  <div className="recent-post-content">
-                    <a href="/">05 January, 2024</a>
-                    <h5><a href="/">Epicurean Eats: A Feast for Foodies</a></h5>
-                  </div>
-                </div>
-                <div className="recent-post">
-                  <div className="recent-post-img">
-                    <a href="/"><img src="assets/image/standard/sidebar-img2.png" alt="" /></a>
-                  </div>
-                  <div className="recent-post-content">
-                    <a href="/">05 January, 2024</a>
-                    <h5><a href="/">Feast Fables Stories Told in Every Bite</a></h5>
-                  </div>
-                </div>
-                <div className="recent-post">
-                  <div className="recent-post-img">
-                    <a href="/"><img src="assets/image/standard/sidebar-img3.png" alt="" /></a>
-                  </div>
-                  <div className="recent-post-content">
-                    <a href="/">05 January, 2024</a>
-                    <h5><a href="/">Bite Bliss Savoring the Sweet and Savory</a>
-                    </h5>
-                  </div>
-                </div>
-                <div className="recent-post">
-                  <div className="recent-post-img">
-                    <a href="/"><img src="assets/image/standard/sidebar-img4.png" alt="" /></a>
-                  </div>
-                  <div className="recent-post-content">
-                    <a href="/">05 January, 2024</a>
-                    <h5><a href="/">Flavor Fiesta Exploring Taste Adventures</a>
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div className="sidebar-widget about-section">
-                <ul className="category">
-                  <li>
-                    <a href="/">About Us</a>
-                  </li>
-                  <li>
-                    <a href="/">Terms &amp; Conditions</a>
-                  </li>
-                  <li>
-                    <a href="/">Support</a>
-                  </li>
-                  <li>
-                    <a href="/">Privacy Policy</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

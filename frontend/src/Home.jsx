@@ -61,7 +61,7 @@ const Home = () => {
       <div className="blog-post2 mt-4">
         <div className="container">
           <div className="row g-4 mb-4 mt-4">
-            <div className="col-lg-8">
+            <div className="col-12">
               <div className="blog-border two m-0">
                 <div className="spot-light-btn">
                   <a href="/">
@@ -104,7 +104,9 @@ const Home = () => {
                       <div className="tab-pane fade show active" id="travel" role="tabpanel">
                         <div className="row g-4 gy-5">
                           {filteredBlogs.length === 0 ? (
-                            <p>No blogs available in this category.</p>
+                            <div className="h-250 d-flex justify-content-center align-items-center">
+                              <h3 className="text-center">No blogs available in this category.</h3>
+                            </div>
                           ) : (
                             filteredBlogs.map((blog) => (
                               <div key={blog._id} className="col-md-6">
@@ -180,7 +182,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <div className="life-style-sidebar">
                 <div className="sidebar-widget driscription">
                   <div className="header-logo pb-15">
@@ -337,7 +339,7 @@ const Home = () => {
                   <img src="assets/image/life-style/Sidebar-ads.png" alt />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
