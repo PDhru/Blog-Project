@@ -16,7 +16,7 @@ const blogSchema = new mongoose.Schema({
   },
   blogimage: {
     type: String,
-    required: true, // We expect an image to be uploaded
+    required: true, 
   },
   message: {
     type: String,

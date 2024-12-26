@@ -7354,7 +7354,7 @@ header.podcast .header-wrapper .icon-area .search-bar .search-input {
   border: none;
   border-radius: 0;
   border: 1px solid rgba(22, 25, 30, 0.15);
-  border-radius: 20px;
+  border-radius: 5px;
   color: var(--dark-text-color);
   text-align: center;
   font-family: var(--font-figtree);
@@ -17002,14 +17002,14 @@ header.podcast .header-wrapper .icon-area .search-bar .search-input {
 .comment-area .comment .comment-replay > li:last-child {
   margin-bottom: 0;
 }
-.inquiry-form {
+/* .inquiry-form {
   background: url(../image/standard/Background-8.png);
   border-radius: 20px;
   padding: 40px 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 @media (max-width: 767px) {
   .inquiry-form {
     padding: 45px 20px 50px;
@@ -19706,3 +19706,20 @@ header.podcast .header-wrapper .icon-area .search-bar .search-input {
   margin-bottom: 45px;
 }
 .h-250{height: 250px;}
+
+.logo-heading{
+  font-family: var(--font-red-rose);
+    color: var(--dark-text-color);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}
+.logo-heading2{
+  font-family: var(--font-red-rose);
+    color: white !important;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}

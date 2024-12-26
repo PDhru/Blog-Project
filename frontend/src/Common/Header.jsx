@@ -12,8 +12,8 @@ const Header = () => {
   <div className="sidebar-menu">
     <div className="mobile-logo-area d-flex justify-content-between align-items-center">
       <div className="header-logo">
-        <a href="#"><img alt="image" className="img-fluid dark" src="assets/image/index-img/icon/dark-logo.svg" /></a>
-        <a href="#"><img alt="image" className="img-fluid light" src="assets/image/index-img/icon/light-logo.svg" /></a>
+        <a href="#"><img alt="image" className="img-fluid light" src="assets/image/blog-logo.png" /></a>
+        {/* <a href="#"><img alt="image" className="img-fluid light" src="assets/image/index-img/icon/light-logo.svg" /></a> */}
       </div>
       <div className="menu-button menu-close-btn">
         <i className="bi bi-x" />
@@ -126,8 +126,7 @@ const Header = () => {
         </div> */}
       </div>
       <div className="header-logo">
-        <a href="#"><img alt="image" className="img-fluid dark" src="assets/image/index-img/icon/dark-logo.svg" /></a>
-        <a href="#"><img alt="image" className="img-fluid light" src="assets/image/index-img/icon/light-logo.svg" /></a>
+      <a href="#"><h2 className='logo-heading'>Bloggify</h2></a>
       </div>
       <div className="header-right d-md-flex d-none">
         {/* <div className="search-bar">
